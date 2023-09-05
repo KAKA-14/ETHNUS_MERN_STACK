@@ -1,0 +1,83 @@
+.left{
+  height:80vh;
+  width: 40vw;
+  float:left;
+  position: relative;
+  left:20%;
+}
+
+.right{
+  height:80vh;
+  width: 40vw;
+  float: right;
+}
+#i3 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    width: 180px;
+    border:2px solid; /*removed bg color from here as bgcolor covers area till border and we want just till the padding*/
+}
+  /*padding is distance of content from cell--> ul is the main box and its padding is from list items,whereas padding in li is from each item to their respective borders of the cell*/
+.c1 a {
+    display: block;/*to select over the cell rather than text*/
+    color: #1625B6;
+    padding: 8px;/*padding from cell's border*/
+    text-decoration: none;
+    background-color: #ADD9E6;
+
+  }
+
+.c1 a:hover {
+    background-color: #FEA500;
+    color: white; 
+}
+.active {
+    background-color: #FEA500;/*background color when active*/
+    color: white;
+}
+
+
+
+
+
+
+/*-----------horizontal nav bar-------------------*/
+#i2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+    border:2px solid;
+    width:60%;
+}
+.c2 {
+    float: left;
+  }
+  
+.c2 a {
+  
+  display: block;
+  color: #1625B6;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #D3D3D3;
+  }
+
+.c2{
+  border-right: 1px solid #1625B6;
+}
+.c2:last-child{
+    border: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+ .c2 a:hover {
+    background-color:#83827D;
+  }
+
+
+
+
+
+
