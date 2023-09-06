@@ -1,0 +1,36 @@
+#mySidenav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#html {
+  top: 185px;
+  background-color: #04AA6D;
+}
+
+#css {
+  top: 245px;
+  background-color: #2196F3;
+}
+
+#js {
+  top: 305px;
+  background-color: #f44336;
+}
+
+#react {
+  top: 365px;
+  background-color: #555
+}

@@ -1,0 +1,53 @@
+h1{
+    color: #790A70;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 340px;
+
+}
+p{
+    color: #790A70;
+    margin-right: 140px;
+    margin-left: 340px;
+
+
+}
+
+hr.dotted {
+    border-top: 2px dotted #790A70;
+    margin-right: 140px;
+    margin-left: 340px;   
+
+}
+
+/*---nav bar--*/
+.left{
+    height:40vh;
+    width: 22vw;
+    float:left;
+    position: relative;
+    left:5%
+    }
+
+#i3 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    width: 200px;
+}
+    /*padding is distance of content from cell--> ul is the main box and its padding is from list items,whereas padding in li is from each item to their respective borders of the cell*/
+.c1 a {
+    display: block;/*to select over the cell rather than text*/
+    color: #1625B6;
+    padding: 2px;
+    margin:10px;
+    text-decoration: none;
+    border:1px solid black;
+    background-color: white;
+    border-right: 20px solid black;
+    /*margin-left: 0px;*/
+  
+}
+  
+.c1 a:hover {
+    color: #790A70;; 
+}
